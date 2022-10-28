@@ -1,0 +1,30 @@
+//Find users that are connecting to internet endpoints via PowerShell commands
+DeviceNetworkEvents
+| project
+    TimeGenerated,
+    InitiatingProcessAccountName,
+    InitiatingProcessCommandLine,
+    DeviceName,
+    LocalIPType,
+    LocalIP,
+    RemoteIPType,
+    RemotePort,
+    RemoteIP,
+    RemoteUrl
+//Exclude system processes
+| where InitiatingProcessAccountName != "system"
+| where InitiatingProcessCommandLine contains "powershell"
+| where LocalIPType == "Private"
+| where RemoteIPType == "Public"
+| project
+    TimeGenerated,
+    DeviceName,
+    InitiatingProcessAccountName,
+    InitiatingProcessCommandLine,
+    LocalIP,
+    RemoteIP,
+    RemotePort,
+    RemoteUrl
+//Exclude system initiated events as this is a user detection
+| where InitiatingProcessAccountName <> "local service"
+| sort by TimeGenerated desc 
