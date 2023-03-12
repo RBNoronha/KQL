@@ -1,0 +1,13 @@
+Criar uma Plataforma de gerenciamento de tarefas: uma plataforma que usa inteligência artificial para ajudar pessoas com TDAH a gerenciar suas tarefas diárias. Ele pode fornecer lembretes, definir prioridades e adaptar-se ao comportamento do usuário.
+
+Aplicativo de monitoramento de humor: um aplicativo que usa aprendizado de máquina para monitorar as flutuações de humor dos usuários e oferecer dicas e sugestões personalizadas para ajudá-los a gerenciar seus sintomas de TDAH.
+
+Sistema de treinamento cognitivo: um sistema que usa inteligência artificial para fornecer treinamento cognitivo personalizado para pessoas com TDAH. Ele pode ajudar a melhorar a atenção, a memória e outras habilidades cognitivas importantes.
+
+Chatbot de terapia: um chatbot que usa inteligência artificial para fornecer terapia e suporte emocional para pessoas com TDAH. Ele pode ser usado como uma ferramenta adicional para ajudar as pessoas a gerenciar seus sintomas.
+
+Ferramenta de detecção precoce: uma ferramenta que usa aprendizado de máquina para detectar TDAH em crianças e jovens adultos em estágios iniciais. Isso pode ajudar os pais e os profissionais de saúde a identificar e intervir precocemente.
+
+Ferramenta de avaliação: uma ferramenta que usa inteligência artificial para avaliar a gravidade dos sintomas de TDAH em indivíduos e fornecer sugestões para o tratamento adequado.
+
+Plataforma de comunidade: uma plataforma que usa inteligência artificial para conectar pessoas com TDAH, permitindo que elas compartilhem experiências e ofereçam suporte uns aos outros. Ele também pode fornecer recursos educacionais e de autoajuda para os membros da comunidade.
